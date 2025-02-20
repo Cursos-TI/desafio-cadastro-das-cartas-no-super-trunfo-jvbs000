@@ -16,13 +16,13 @@ int main() {
     // Entrada de dados para a carta 1
     printf("\nInsira os dados da carta 1\n");
     printf("Número da carta: ");
-    scanf("%s", numerodaCarta1);
+    scanf("%s", &numerodaCarta1);
     printf("Estado (A-H): ");
     scanf(" %c", &estado1); // Espaço antes de %c para evitar problemas com buffer
     printf("Código da carta: ");
-    scanf("%s", codigo1);
+    scanf("%s", &codigo1);
     printf("Nome da cidade: ");
-    scanf("%s" , nomeCidade1);
+    scanf("%s" , &nomeCidade1);
     printf("População: ");
     scanf("%d", &populacao1);
     printf("Área (km²): ");
@@ -35,13 +35,13 @@ int main() {
     // Entrada de dados para a carta 2
     printf("\nInsira os dados da carta 2\n");
     printf("Número da carta: ");
-    scanf("%s", numerodaCarta2);
+    scanf("%s", &numerodaCarta2);
     printf("Estado (A-H): ");
     scanf(" %c", &estado2);
     printf("Código da carta: ");
-    scanf("%s", codigo2);
+    scanf("%s", &codigo2);
     printf("Nome da cidade: ");
-    scanf("%s", nomeCidade2);
+    scanf("%s", &nomeCidade2);
     printf("População: ");
     scanf("%d", &populacao2);
     printf("Área (km²): ");
