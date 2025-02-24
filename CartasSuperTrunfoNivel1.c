@@ -80,22 +80,22 @@ int main() {
 Dados escolhidos da carta 1:
 Estado: A
 Código: A01
-Nome da cidade: Pirapora
-População: 55606
-Área: 549.5 km²
-PIB: 2.88 bilhões
-Pontos turísticos: 5 
+Nome da cidade: Campinas
+População: 1200000
+Área: 795.70 km²
+PIB: 60.25 bilhões
+Pontos turísticos: 40
 */
 
 /*
 Dados escolhidos da carta 2:
 Estado: B
 Código: B02
-Nome da cidade: Buritizeiro
-População: 23910
-Área: 7.226 km²
-PIB: 0.736 bilhões
-Pontos turísticos: 3
+Nome da cidade: Paraty
+População: 45000
+Área: 926.00 km²
+PIB: 15.75 bilhões
+Pontos turísticos: 30
 */    
     
 
