@@ -90,7 +90,7 @@ Pontos turísticos: 5
 /*
 Dados escolhidos da carta 2:
 Estado: B
-Código: B01
+Código: B02
 Nome da cidade: Buritizeiro
 População: 23910
 Área: 7.226 km²
