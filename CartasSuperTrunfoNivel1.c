@@ -75,3 +75,29 @@ int main() {
     
     return 0;
 }
+
+/*
+Dados escolhidos da carta 1:
+Estado: A
+Código: A01
+Nome da cidade: Pirapora
+População: 55606
+Área: 549.5 km²
+PIB: 2.88 bilhões
+Pontos turísticos: 5 
+*/
+
+/*
+Dados escolhidos da carta 2:
+Estado: B
+Código: B01
+Nome da cidade: Buritizeiro
+População: 23910
+Área: 7.226 km²
+PIB: 0.736 bilhões
+Pontos turísticos: 3
+*/    
+    
+
+
+
