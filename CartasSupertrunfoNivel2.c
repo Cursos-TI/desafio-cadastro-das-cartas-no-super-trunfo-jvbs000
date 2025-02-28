@@ -22,7 +22,7 @@ int main() {
     printf("Código da carta: \n");
     scanf("%s", &codigo1);
     printf("Nome da cidade: \n");
-    scanf(" %[^\n]" , &nomeCidade1);
+    scanf(" %[^\n]" , &nomeCidade1); // Apesar dessa função para se ler nomes com espaço não ter sido mostrada no momento, foi necessário adquirir conhecimento dela para evitar erros
     printf("População: \n");
     scanf("%d", &populacao1);
     printf("Área (km²): \n");
