@@ -36,7 +36,7 @@ int main() {
     densidade1 = populacao1 / area1;
     
     // Cálculo de PIB per capita da carta 1
-    pibPercapita1 = (pib1 * 1e9) / populacao1;
+    pibPercapita1 = (pib1 * 1e9) / populacao1; // O uso da notação científica foi necessário para o cálculo correto ser feito mesmo seu uso não tendo sido explicado nesse módulo
 
     // Entrada de dados para a carta 2
     printf("\nInsira os dados da carta 2\n");
@@ -47,7 +47,7 @@ int main() {
     printf("Código da carta: ");
     scanf(" %s", &codigo2);
     printf("Nome da cidade: ");
-    scanf(" %[^\n]", &nomeCidade2);
+    scanf(" %[^\n]", &nomeCidade2); // Apesar dessa função para se ler nomes com espaço não ter sido mostrada no momento, foi necessário adquirir conhecimento dela para evitar erros
     printf("População: \n");
     scanf("%d", &populacao2);
     printf("Área (km²): \n");
@@ -61,7 +61,7 @@ int main() {
     densidade2 = populacao2 / area2;
 
     // Cálculo de PIB per capita da carta 2
-    pibPercapita2 = (pib2 * 1e9) / populacao2;
+    pibPercapita2 = (pib2 * 1e9) / populacao2; // O uso da notação científica foi necessário para o cálculo correto ser feito mesmo seu uso não tendo sido explicado nesse módulo
     
     // Impressão dos dados da carta 1
     printf("\n--- Carta 1 ---\n");
